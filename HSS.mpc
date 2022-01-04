@@ -1,0 +1,18 @@
+project (HSS) {
+	
+	exename = HSS
+	install = .
+
+	specific (make) {
+
+		compile_flags += -std=c++11
+	}
+
+	Source_Files {
+
+		driver.cpp
+		HSS.cpp
+		Node.cpp
+	}
+
+}
